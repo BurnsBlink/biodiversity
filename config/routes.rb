@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root 'pages#index'
 
   resources :cladograms, only: [:index]
-  resources :bacteria, only: [:show]
+  resources :bacteria, only: [:index]
   resources :archaea, only: [:index]
   resources :excavata, only: [:index]
   resources :unikonta, only: [:index]
