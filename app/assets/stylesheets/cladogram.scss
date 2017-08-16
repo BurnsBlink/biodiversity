@@ -1,3 +1,45 @@
-.links {
-  color: pink;
+.bact, .arch, .exca, .unik, .plas, .sar  {
+  color: #0043af;
+  font-size: 20px;
+}
+
+.bact, .arch, .exca, .unik, .plas, .sar {
+  &:hover {
+    color: lightblue;
+  }
+}
+
+.bact {
+  position: relative;
+  top: 180px;
+}
+
+.arch {
+  position: relative;
+  top: 140px;
+  left: 20px;
+}
+
+.exca {
+  position: relative;
+  top: 50px;
+  left: 110px;
+}
+
+.unik {
+  position: relative;
+  top: 80px;
+  left: 190px;
+}
+
+.plas {
+  position: relative;
+  top: 245px;
+  left: 240px;
+}
+
+.sar {
+  position: relative;
+  top: 360px;
+  left: 30px;
 }
