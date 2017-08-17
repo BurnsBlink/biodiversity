@@ -1,0 +1,99 @@
+/* line 1, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.bact, .arch, .exca, .unik, .plas, .sar {
+  color: #0043af;
+  font-size: 20px;
+}
+
+/* line 7, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.bact:hover, .arch:hover, .exca:hover, .unik:hover, .plas:hover, .sar:hover {
+  color: lightblue;
+}
+
+/* line 12, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.bact {
+  position: relative;
+  top: 180px;
+}
+
+/* line 17, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.arch {
+  position: relative;
+  top: 140px;
+  left: 20px;
+}
+
+/* line 23, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.exca {
+  position: relative;
+  top: 50px;
+  left: 110px;
+}
+
+/* line 29, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.unik {
+  position: relative;
+  top: 80px;
+  left: 190px;
+}
+
+/* line 35, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.plas {
+  position: relative;
+  top: 245px;
+  left: 240px;
+}
+
+/* line 41, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.sar {
+  position: relative;
+  top: 360px;
+  left: 30px;
+}
+
+/* line 1, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+button:focus {
+  outline: 0;
+}
+
+/* line 3, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.home {
+  background-image: url(/assets/tree-8ab7921bc2ab99027a0d30d68d8ba2d911fb32e6207aac235435d8a9ebb9f86e.jpg);
+  background-repeat: no-repeat;
+}
+
+/* line 8, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.intro-questions {
+  width: 170px;
+  height: 75px;
+  background: lightgrey;
+  color: #00af37;
+  border: 1px solid #00af37;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+/* line 18, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.intro-questions:hover {
+  background: #00af37;
+  color: white;
+  opacity: 1;
+}
+
+/* line 24, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.life-tree {
+  width: 170px;
+  height: 75px;
+  margin: 15px;
+  background: lightgrey;
+  color: #0043af;
+  border: 1px solid #0043af;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+/* line 35, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.life-tree:hover {
+  background: #0043af;
+  color: white;
+  opacity: 1;
+}
