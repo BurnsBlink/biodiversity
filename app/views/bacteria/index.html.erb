@@ -1,1 +1,6 @@
 <img class= "bacteria-clado" src="<%= asset_path( 'bacteria-clado.png' ) %>"/>
+<ul>
+  <% @backers.each do |backer| %>
+    <li><%= link_to backer.undername, bacterium_path(backer) %></li>
+  <% end %>
+</ul>
