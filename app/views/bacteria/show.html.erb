@@ -1,0 +1,21 @@
+<div class="shower">
+<h1 class="name-header"><%= @backer.undername.capitalize %></h1>
+<div class="text-loadout">
+  <%= link_to 'Back', :back %>
+<p class="header">General Characteristics</p>
+<span class="description"><%= @backer.description %></span>
+<p class="header">Ecological Interactions and Human Applications</p>
+<span class="applications"><%= @backer.applications %></span>
+
+</br></br>
+<%= image_tag @backer.image_one, :size => '200x200', class: "img-one"%>
+<span class="caption"><%= @backer.caption_one %></span>
+
+<%= image_tag @backer.image_one, :size => '200x200', class: "img-one"%>
+<span class="caption"><%= @backer.caption_one %></span>
+
+<%= image_tag @backer.image_one, :size => '200x200', class: "img-one"%>
+<span class="caption"><%= @backer.caption_one %></span>
+</br>
+</div>
+</div>

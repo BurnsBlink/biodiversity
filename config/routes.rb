@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   resources :cladograms, only: [:index]
 
-  resources :bacteria, only: [:index]
+  resources :bacteria, only: [:index, :show]
     # resources :proteobacteria, only: [:index]
     # resources :chlamydia, only: [:index]
     # resources :spirochaetes, only: [:index]
