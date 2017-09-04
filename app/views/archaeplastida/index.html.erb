@@ -1,1 +1,8 @@
 <img class= "plastida-clado" src="<%= asset_path( 'plastida-clado.png' ) %>"/>
+<ul>
+  <% @arches.each do |arch| %>
+    <li id="clado-list" class='<%= arch.undername.downcase %>' ><%= link_to arch.undername, archaeplastida_path(arch) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Back', cladograms_path %>

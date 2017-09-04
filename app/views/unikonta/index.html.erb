@@ -1,1 +1,8 @@
 <img class= "unikonta-clado" src="<%= asset_path( 'unikonta-clado.png' ) %>"/>
+<ul>
+  <% @unites.each do |unite| %>
+    <li id="clado-list" class='<%= unite.undername.downcase %>' ><%= link_to unite.undername, unikontum_path(unite) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Back', cladograms_path %>

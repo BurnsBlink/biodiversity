@@ -1,1 +1,8 @@
 <img class= "excavata-clado" src="<%= asset_path( 'excavata-clado.png' ) %>"/>
+<ul>
+  <% @excels.each do |excel| %>
+    <li id="clado-list" class='<%= excel.undername.downcase %>' ><%= link_to excel.undername, excavatum_path(excel) %></li>
+  <% end %>
+</ul>
+
+<%= link_to 'Back', cladograms_path %>

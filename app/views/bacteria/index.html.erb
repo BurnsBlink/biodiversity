@@ -1,6 +1,8 @@
 <img class= "bacteria-clado" src="<%= asset_path( 'bacteria-clado.png' ) %>"/>
 <ul>
   <% @backers.each do |backer| %>
-    <li class="clado-list"><%= link_to backer.undername, bacterium_path(backer) %></li>
+    <li id="clado-list" class='<%= backer.undername.downcase %>' ><%= link_to backer.undername, bacterium_path(backer) %></li>
   <% end %>
 </ul>
+
+<%= link_to 'Back', cladograms_path %>

@@ -10,12 +10,76 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170816175151) do
+ActiveRecord::Schema.define(version: 20170904224113) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "arches", force: :cascade do |t|
+    t.string   "undername",     null: false
+    t.text     "description",   null: false
+    t.text     "applications",  null: false
+    t.string   "image_one"
+    t.string   "caption_one"
+    t.string   "image_two"
+    t.string   "caption_two"
+    t.string   "image_three"
+    t.string   "caption_three"
+    t.string   "image_four"
+    t.string   "caption_four"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
   create_table "backers", force: :cascade do |t|
+    t.string   "undername",     null: false
+    t.text     "description",   null: false
+    t.text     "applications",  null: false
+    t.string   "image_one"
+    t.string   "caption_one"
+    t.string   "image_two"
+    t.string   "caption_two"
+    t.string   "image_three"
+    t.string   "caption_three"
+    t.string   "image_four"
+    t.string   "caption_four"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "excels", force: :cascade do |t|
+    t.string   "undername",     null: false
+    t.text     "description",   null: false
+    t.text     "applications",  null: false
+    t.string   "image_one"
+    t.string   "caption_one"
+    t.string   "image_two"
+    t.string   "caption_two"
+    t.string   "image_three"
+    t.string   "caption_three"
+    t.string   "image_four"
+    t.string   "caption_four"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "stares", force: :cascade do |t|
+    t.string   "undername",     null: false
+    t.text     "description",   null: false
+    t.text     "applications",  null: false
+    t.string   "image_one"
+    t.string   "caption_one"
+    t.string   "image_two"
+    t.string   "caption_two"
+    t.string   "image_three"
+    t.string   "caption_three"
+    t.string   "image_four"
+    t.string   "caption_four"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
+  create_table "unites", force: :cascade do |t|
     t.string   "undername",     null: false
     t.text     "description",   null: false
     t.text     "applications",  null: false

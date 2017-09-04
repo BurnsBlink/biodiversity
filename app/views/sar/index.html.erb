@@ -1,1 +1,8 @@
 <img class= "sar-clado" src="<%= asset_path( 'sar-clado.png' ) %>"/>
+<ul>
+  <% @stares.each do |stare| %>
+    <li id="clado-list" class='<%= stare.undername.downcase %>' ><%= link_to stare.undername, sar_path(stare) %></li>
+  <% end %>
+</ul>
+
+  <%= link_to 'Back', cladograms_path %>
