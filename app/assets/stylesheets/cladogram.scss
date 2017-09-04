@@ -4,6 +4,10 @@
   left: -400px;
 }
 
+#clado-list {
+  list-style-type: none;
+}
+
 .bact, .arch, .exca, .unik, .plas, .sar  {
   color: #0043af;
   font-size: 20px;
@@ -49,8 +53,4 @@
   position: relative;
   top: 95px;
   left: 50px;
-}
-
-.clado-list {
-  list-style-type: none;
 }
