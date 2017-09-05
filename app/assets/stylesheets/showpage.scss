@@ -6,10 +6,10 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .text-loadout {
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   background: #f8f8f8;
   border: 1px solid darkgrey;
@@ -30,9 +30,12 @@
   margin-bottom: 10px;
 }
 
-.img-one {
-
+.img {
+  display: inline-block;
 }
 
-.caption-one {
+.caption {
+  display: inline-block;
+  width: 200px;
+  font-size: 10px;
 }

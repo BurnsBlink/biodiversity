@@ -8,14 +8,22 @@
 <span class="applications"><%= @backer.applications %></span>
 
 </br></br>
-<%= image_tag @backer.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @backer.caption_one %></span>
-
-<%= image_tag @backer.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @backer.caption_one %></span>
-
-<%= image_tag @backer.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @backer.caption_one %></span>
+<% if @backer.image_one.present? %>
+  <%= image_tag @backer.image_one, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @backer.caption_one %></span>
+<% end %>
+<% if @backer.image_two.present? %>
+  <%= image_tag @backer.image_two, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @backer.caption_two %></span>
+<% end %>
+<% if @backer.image_three.present? %>
+  <%= image_tag @backer.image_three, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @backer.caption_three %></span>
+<% end %>
+<% if @backer.image_four.present? %>
+  <%= image_tag @backer.image_four, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @backer.caption_four %></span>
+<% end %>
 </br>
 </div>
 </div>

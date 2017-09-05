@@ -8,14 +8,22 @@
 <span class="applications"><%= @stare.applications %></span>
 
 </br></br>
-<%= image_tag @stare.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @stare.caption_one %></span>
-
-<%= image_tag @stare.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @stare.caption_one %></span>
-
-<%= image_tag @stare.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @stare.caption_one %></span>
+<% if @stare.image_one.present? %>
+  <%= image_tag @stare.image_one, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @stare.caption_one %></span>
+<% end %>
+<% if @stare.image_two.present? %>
+  <%= image_tag @stare.image_two, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @stare.caption_two %></span>
+<% end %>
+<% if @stare.image_three.present? %>
+  <%= image_tag @stare.image_three, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @stare.caption_three %></span>
+<% end %>
+<% if @stare.image_four.present? %>
+  <%= image_tag @stare.image_four, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @stare.caption_four %></span>
+<% end %>
 </br>
 </div>
 </div>
