@@ -8,14 +8,22 @@
 <span class="applications"><%= @unite.applications %></span>
 
 </br></br>
-<%= image_tag @unite.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @unite.caption_one %></span>
-
-<%= image_tag @unite.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @unite.caption_one %></span>
-
-<%= image_tag @unite.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @unite.caption_one %></span>
+<% if @unite.image_one.present? %>
+  <%= image_tag @unite.image_one, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @unite.caption_one %></span>
+<% end %>
+<% if @unite.image_two.present? %>
+  <%= image_tag @unite.image_two, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @unite.caption_two %></span>
+<% end %>
+<% if @unite.image_three.present? %>
+  <%= image_tag @unite.image_three, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @unite.caption_three %></span>
+<% end %>
+<% if @unite.image_four.present? %>
+  <%= image_tag @unite.image_four, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @unite.caption_four %></span>
+<% end %>
 </br>
 </div>
 </div>

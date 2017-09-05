@@ -8,14 +8,22 @@
 <span class="applications"><%= @excel.applications %></span>
 
 </br></br>
-<%= image_tag @excel.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @excel.caption_one %></span>
-
-<%= image_tag @excel.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @excel.caption_one %></span>
-
-<%= image_tag @excel.image_one, :size => '200x200', class: "img-one"%>
-<span class="caption"><%= @excel.caption_one %></span>
+<% if @excel.image_one.present? %>
+  <%= image_tag @excel.image_one, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @excel.caption_one %></span>
+<% end %>
+<% if @excel.image_two.present? %>
+  <%= image_tag @excel.image_two, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @excel.caption_two %></span>
+<% end %>
+<% if @excel.image_three.present? %>
+  <%= image_tag @excel.image_three, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @excel.caption_three %></span>
+<% end %>
+<% if @excel.image_four.present? %>
+  <%= image_tag @excel.image_four, :size => '200x200', class: "img"%>
+  <span class="caption"><%= @excel.caption_four %></span>
+<% end %>
 </br>
 </div>
 </div>
