@@ -4,9 +4,8 @@
     <li id="clado-list" class='<%= arch.undername.downcase %>' ><%= link_to arch.undername, archaeplastida_path(arch) %></li>
   <% end %>
 </ul>
-
-<p class="tree-info">
+<div class="clado-info"><p class="tree-info">
   Genetic evidence strongly supports the idea that the Archaeplastida comprises a monophyletic lineage of organisms.  It includes the diverse and well-studied red algae and green algae (which include both chlorophytes and charophytes), as well as all plants.  All archaeplastids store starch or very similar carbohydrates as a result of photosynthesis, and possess many of the same photosynthetic pigments in their chloroplasts.  In addition, the chloroplasts of all archaeplastids are surrounded by exactly two membranes, suggesting that the common ancestor to this group gained its photosynthetic ability by absorbing and retaining a cyanobacterium (primary endoysmbiosis).  In fact, the name of the group can essentially be translated as "ancient chloroplast".  Later, this ancestor diversified into red and green algal ancestors, as depicted on the phylogenetic tree above.
 </p>
-
+</div>
 <%= link_to 'Back', cladograms_path %>

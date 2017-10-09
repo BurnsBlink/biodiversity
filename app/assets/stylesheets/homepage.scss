@@ -1,10 +1,15 @@
+$primary-blue: #0043af;
+$primary-green: #00af37;
+$primary-white: #ffffff;
+$primary-grey: lightgrey;
+
 button:focus {outline:0;}
 
 body {
 }
 
 a:link {
-  color: #0048ff;
+  color: $primary-blue;
 }
 
 a:visited {
@@ -26,16 +31,16 @@ a:hover {
 .intro-questions {
   width: 170px;
   height: 75px;
-  background: lightgrey;
-  color: #00af37;
-  border: 1px solid #00af37;
+  background: $primary-grey;
+  color: $primary-green;
+  border: 1px solid $primary-green;
   transition: all 0.3s ease;
   font-size: 20px;
 }
 
 .intro-questions:hover{
-  background: #00af37;
-  color: white;
+  background: $primary-green;
+  color: $primary-white;
   opacity: 1;
 }
 
@@ -43,15 +48,15 @@ a:hover {
   width: 170px;
   height: 75px;
   margin: 15px;
-  background: lightgrey;
-  color: #0043af;
-  border: 1px solid #0043af;
+  background: $primary-grey;
+  color: $primary-blue;
+  border: 1px solid $primary-blue;
   transition: all 0.3s ease;
   font-size: 20px;
 }
 
 .life-tree:hover{
-  background: #0043af;
-  color: white;
+  background: $primary-blue;
+  color: $primary-white;
   opacity: 1;
 }

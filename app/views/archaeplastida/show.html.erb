@@ -6,24 +6,22 @@
 <span class="description"><%= @arch.description %></span>
 <p class="header">Ecological Interactions and Human Applications</p>
 <span class="applications"><%= @arch.applications %></span>
-
-</br></br>
+<hr class="line">
 <% if @arch.image_one.present? %>
-  <%= image_tag @arch.image_one, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @arch.caption_one %></span>
+  <%= image_tag @arch.image_one, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @arch.caption_one %></span></br>
 <% end %>
 <% if @arch.image_two.present? %>
-  <%= image_tag @arch.image_two, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @arch.caption_two %></span>
+  <%= image_tag @arch.image_two, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @arch.caption_two %></span></br>
 <% end %>
 <% if @arch.image_three.present? %>
-  <%= image_tag @arch.image_three, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @arch.caption_three %></span>
+  <%= image_tag @arch.image_three, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @arch.caption_three %></span></br>
 <% end %>
 <% if @arch.image_four.present? %>
-  <%= image_tag @arch.image_four, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @arch.caption_four %></span>
+  <%= image_tag @arch.image_four, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @arch.caption_four %></span></br>
 <% end %>
-</br>
 </div>
 </div>

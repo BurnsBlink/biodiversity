@@ -1,14 +1,21 @@
+$primary-grey: lightgrey;
+$primary-blue: #0043af;
+
+
 .main-clado {
   position: relative;
   top: 80px;
   left: -400px;
 }
 
+.clado-info {
+  text-align: center;
+}
+
 .tree-info {
   font-family: 'Open Sans', sans-serif;
-  text-align: center;
   background: #c7defc;
-  border: 1px solid lightgrey;
+  border: 1px solid $primary-grey;
   border-radius: 10%;
   padding: 15px;
   font-size: 15px;
@@ -21,7 +28,7 @@
 }
 
 .bact, .arch, .exca, .unik, .plas, .sar  {
-  color: #0043af;
+  color: $primary-blue;
   font-size: 20px;
 }
 

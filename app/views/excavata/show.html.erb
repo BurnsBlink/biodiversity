@@ -6,24 +6,22 @@
 <span class="description"><%= @excel.description %></span>
 <p class="header">Ecological Interactions and Human Applications</p>
 <span class="applications"><%= @excel.applications %></span>
-
-</br></br>
+<hr class="line">
 <% if @excel.image_one.present? %>
-  <%= image_tag @excel.image_one, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @excel.caption_one %></span>
+  <%= image_tag @excel.image_one, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @excel.caption_one %></span></br>
 <% end %>
 <% if @excel.image_two.present? %>
-  <%= image_tag @excel.image_two, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @excel.caption_two %></span>
+  <%= image_tag @excel.image_two, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @excel.caption_two %></span></br>
 <% end %>
 <% if @excel.image_three.present? %>
-  <%= image_tag @excel.image_three, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @excel.caption_three %></span>
+  <%= image_tag @excel.image_three, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @excel.caption_three %></span></br>
 <% end %>
 <% if @excel.image_four.present? %>
-  <%= image_tag @excel.image_four, :size => '200x200', class: "img"%>
-  <span class="caption"><%= @excel.caption_four %></span>
+  <%= image_tag @excel.image_four, :size => '300x240', class: "img"%>
+  </br><span class="caption"><%= @excel.caption_four %></span></br>
 <% end %>
-</br>
 </div>
 </div>
