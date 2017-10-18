@@ -28,7 +28,6 @@ $primary-blue: #0043af;
 }
 
 .bact, .arch, .exca, .unik, .plas, .sar  {
-  color: $primary-blue;
   font-size: 20px;
 }
 
@@ -40,31 +39,34 @@ $primary-blue: #0043af;
 
 .bact {
   position: relative;
-  top: -180px;
+  top: -140px;
   left: -10px;
+  border: 1px solid grey;
+  color: white;
+  background: black;
 }
 
 .arch {
   position: relative;
-  top: -260px;
+  top: -250px;
   left: 20px;
 }
 
 .exca {
   position: relative;
-  top: -300px;
-  left: 110px;
+  top: -280px;
+  left: 130px;
 }
 
 .unik {
   position: relative;
-  top: -260px;
-  left: 250px;
+  top: -250px;
+  left: 260px;
 }
 
 .plas {
   position: relative;
-  top: -60px;
+  top: -50px;
   left: 280px;
 }
 

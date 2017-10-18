@@ -4,8 +4,10 @@
   <%= link_to 'Back', :back %>
 <p class="header">General Characteristics</p>
 <span class="description"><%= @arch.description %></span>
+<%if @arch.applications != "-"%>
 <p class="header">Ecological Interactions and Human Applications</p>
 <span class="applications"><%= @arch.applications %></span>
+<%end%>
 <hr class="line">
 <% if @arch.image_one.present? %>
   <%= image_tag @arch.image_one, :size => '300x240', class: "img"%>
