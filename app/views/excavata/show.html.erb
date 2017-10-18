@@ -4,8 +4,10 @@
   <%= link_to 'Back', :back %>
 <p class="header">General Characteristics</p>
 <span class="description"><%= @excel.description %></span>
+<%if @excel.applications != "-"%>
 <p class="header">Ecological Interactions and Human Applications</p>
 <span class="applications"><%= @excel.applications %></span>
+<%end%>
 <hr class="line">
 <% if @excel.image_one.present? %>
   <%= image_tag @excel.image_one, :size => '300x240', class: "img"%>
