@@ -13,9 +13,17 @@ a:visited {
 }
 
 .home {
-  background-image: image-url("biodiv.jpg");
+  background-image: image-url("tree.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0%;
+}
+
+.main-title {
+  color: black;
+  font-size: 55px;
+  text-shadow: -1px 0 $primary-white, 0 1px $primary-white, 1px 0 $primary-white, 0 -1px $primary-white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .intro-questions {
