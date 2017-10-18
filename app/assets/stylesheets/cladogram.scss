@@ -1,6 +1,6 @@
 $primary-grey: lightgrey;
 $primary-blue: #0043af;
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .main-clado {
   position: relative;
@@ -41,9 +41,6 @@ $primary-blue: #0043af;
   position: relative;
   top: -140px;
   left: -10px;
-  border: 1px solid grey;
-  color: white;
-  background: black;
 }
 
 .arch {
@@ -74,4 +71,13 @@ $primary-blue: #0043af;
   position: relative;
   top: 95px;
   left: 50px;
+}
+
+.instructions:first-of-type {
+  margin-top: 120px;
+}
+
+.instructions {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
