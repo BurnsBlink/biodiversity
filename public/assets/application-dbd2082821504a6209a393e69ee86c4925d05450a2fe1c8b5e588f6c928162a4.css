@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+/* line 1, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/archaeplastida.scss */
+.plastida-clado {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 7, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/archaeplastida.scss */
+.red {
+  position: relative;
+  top: -170px;
+  left: 315px;
+}
+
+/* line 13, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/archaeplastida.scss */
+.chlorophytes {
+  position: relative;
+  top: -135px;
+  left: 315px;
+}
+
+/* line 19, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/archaeplastida.scss */
+.charophytes {
+  position: relative;
+  top: -105px;
+  left: 315px;
+}
+
+/* line 25, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/archaeplastida.scss */
+.plants {
+  position: relative;
+  top: -82px;
+  left: 315px;
+}
+
+/* line 1, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/bacteria.scss */
+.bacteria-clado {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 7, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/bacteria.scss */
+.proteobacteria {
+  position: relative;
+  top: -245px;
+  left: 455px;
+}
+
+/* line 13, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/bacteria.scss */
+.chlamydias {
+  position: relative;
+  top: -208px;
+  left: 455px;
+}
+
+/* line 19, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/bacteria.scss */
+.spirochaetes {
+  position: relative;
+  top: -185px;
+  left: 455px;
+}
+
+/* line 25, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/bacteria.scss */
+.cyanobacteria {
+  position: relative;
+  top: -123px;
+  left: 455px;
+}
+
+/* line 31, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/bacteria.scss */
+.gram-positive {
+  position: relative;
+  top: -93px;
+  left: 455px;
+}
+
+/* line 5, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.main-clado {
+  position: relative;
+  top: 80px;
+  left: -400px;
+}
+
+/* line 11, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.clado-info {
+  text-align: center;
+}
+
+/* line 15, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.tree-info {
+  font-family: 'Open Sans', sans-serif;
+  background: #f2f7ff;
+  border: 1px solid lightgrey;
+  padding: 15px;
+  margin-top: -50px;
+  font-size: 17px;
+}
+
+/* line 24, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+#clado-list {
+  list-style-type: none;
+}
+
+/* line 28, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.bact, .arch, .exca, .unik, .plas, .sar {
+  font-size: 20px;
+}
+
+/* line 33, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.bact:hover, .arch:hover, .exca:hover, .unik:hover, .plas:hover, .sar:hover {
+  color: lightblue;
+}
+
+/* line 38, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.bact {
+  position: relative;
+  top: -140px;
+  left: -10px;
+}
+
+/* line 44, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.arch {
+  position: relative;
+  top: -250px;
+  left: 20px;
+}
+
+/* line 50, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.exca {
+  position: relative;
+  top: -280px;
+  left: 130px;
+}
+
+/* line 56, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.unik {
+  position: relative;
+  top: -250px;
+  left: 260px;
+}
+
+/* line 62, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.plas {
+  position: relative;
+  top: -50px;
+  left: 280px;
+}
+
+/* line 68, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.sar {
+  position: relative;
+  top: 95px;
+  left: 50px;
+}
+
+/* line 74, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.instructions:first-of-type {
+  margin-top: 120px;
+}
+
+/* line 78, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/cladogram.scss */
+.instructions {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 1, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/excavata.scss */
+.excavata-clado {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+/* line 7, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/excavata.scss */
+.euglenids {
+  position: relative;
+  top: -110px;
+  left: 310px;
+}
+
+/* line 13, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/excavata.scss */
+.parabasalids {
+  position: relative;
+  top: -78px;
+  left: 310px;
+}
+
+/* line 19, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/excavata.scss */
+.diplomonads {
+  position: relative;
+  top: -58px;
+  left: 310px;
+}
+
+/* line 6, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+button:focus {
+  outline: 0;
+}
+
+/* line 11, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+a:visited {
+  color: #002482;
+}
+
+/* line 15, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.home {
+  background-image: url(/assets/tree-8ab7921bc2ab99027a0d30d68d8ba2d911fb32e6207aac235435d8a9ebb9f86e.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+}
+
+/* line 21, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.main-title {
+  color: black;
+  font-size: 55px;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* line 29, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.intro-questions {
+  width: 170px;
+  height: 75px;
+  background: lightgrey;
+  color: #00af37;
+  border: 1px solid #00af37;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+/* line 39, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.intro-questions:hover {
+  background: #00af37;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* line 45, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.life-tree {
+  width: 170px;
+  height: 75px;
+  margin: 15px;
+  background: lightgrey;
+  color: #0043af;
+  border: 1px solid #0043af;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+/* line 56, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/homepage.scss */
+.life-tree:hover {
+  background: #0043af;
+  color: #ffffff;
+  opacity: 1;
+}
+
+/* line 1, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/sar.scss */
+.sar-clado {
+  position: relative;
+  top: 30px;
+  left: 9px;
+}
+
+/* line 7, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/sar.scss */
+.ciliates {
+  position: relative;
+  top: -278px;
+  left: 500px;
+}
+
+/* line 13, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/sar.scss */
+.dinoflagellates {
+  position: relative;
+  top: -245px;
+  left: 500px;
+}
+
+/* line 19, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/sar.scss */
+.apicomplexans {
+  position: relative;
+  top: -225px;
+  left: 500px;
+}
+
+/* line 25, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/sar.scss */
+.brown {
+  position: relative;
+  top: -175px;
+  left: 500px;
+}
+
+/* line 31, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/sar.scss */
+.diatoms {
+  position: relative;
+  top: -155px;
+  left: 500px;
+}
+
+/* line 37, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/sar.scss */
+.rhizarians {
+  position: relative;
+  top: -115px;
+  left: 500px;
+}
+
+/* line 6, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/showpage.scss */
+.shower {
+  background-image: url(/assets/dots-e14b9ff230d4abed67caad11b6a3ff7c6fdb1d355f1b57839565728d033a4bfa.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 14, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/showpage.scss */
+.text-loadout {
+  text-align: center;
+  background: #f8f8f8;
+  border: 1px solid darkgrey;
+  padding: 15px;
+  font-size: 17px;
+}
+
+/* line 22, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/showpage.scss */
+.header {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/* line 27, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/showpage.scss */
+.name-header {
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/* line 35, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/showpage.scss */
+.line {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 0;
+  border-top: 1px solid #0043af;
+}
+
+/* line 43, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/showpage.scss */
+.img {
+  display: inline-block;
+}
+
+/* line 47, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/showpage.scss */
+.caption {
+  display: inline-block;
+  width: 300px;
+  font-size: 14px;
+  color: #00225b;
+  margin-bottom: 50px;
+  border-bottom: 1px #0043af groove;
+  padding-bottom: 20px;
+}
+
+/* line 1, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.unikonta-clado {
+  position: relative;
+  top: 20px;
+  left: 8px;
+}
+
+/* line 7, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.amoebozoans {
+  position: relative;
+  top: -330px;
+  left: 505px;
+}
+
+/* line 13, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.choanoflagellates {
+  position: relative;
+  top: -300px;
+  left: 505px;
+}
+
+/* line 19, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.animals {
+  position: relative;
+  top: -275px;
+  left: 505px;
+}
+
+/* line 25, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.chytrids {
+  position: relative;
+  top: -250px;
+  left: 505px;
+}
+
+/* line 31, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.zygomycetes {
+  position: relative;
+  top: -120px;
+  left: 505px;
+}
+
+/* line 37, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.glomeromycetes {
+  position: relative;
+  top: -100px;
+  left: 505px;
+}
+
+/* line 43, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.basidiomycetes {
+  position: relative;
+  top: -85px;
+  left: 505px;
+}
+
+/* line 49, /Users/sburns/challenges/biodiversity/app/assets/stylesheets/unikonta.scss */
+.ascomycetes {
+  position: relative;
+  top: -75px;
+  left: 505px;
+}
