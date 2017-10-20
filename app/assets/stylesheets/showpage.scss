@@ -47,7 +47,9 @@ $primary-blue: #0043af;
 .caption {
   display: inline-block;
   width: 300px;
-  font-size: 13px;
+  font-size: 14px;
   color: #00225b;
   margin-bottom: 50px;
+  border-bottom: 1px $primary-blue groove;
+  padding-bottom: 20px;
 }

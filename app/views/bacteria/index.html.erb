@@ -4,5 +4,23 @@
     <li id="clado-list" class='<%= backer.undername.downcase %>' ><%= link_to backer.undername, bacterium_path(backer) %></li>
   <% end %>
 </ul>
+<div class="clado-info"><p class="tree-info">
+  Bacteria are the most metabolically diverse and ubiquitous of all prokaryotes. Some members of this domain metabolize caustic substances such as hydrogen sulfide, methane and ammonium, while others are obligate anaerobes that are poisoned by oxygen. Bacteria are found virtually everywhere in our biosphere including deep underground, on glacier-capped mountaintops and both within and on the surface of other multicellular organisms. <br/><br/> The cell walls of most bacteria differ from the cell walls of other organisms in that they are comprised of a specialized polymer called peptidoglycan. Traditionally, bacteria were grouped based on differences in the location and thickness of the peptidoglycan layer because these differences resulted in different results when subjected to Gram staining. Thus, by convention bacteria were grouped into “Gram-positive” and “Gram-negative” groups. However more recent phylogenetic analysis has provided evidence to show that the Gram-negative bacteria are a paraphyletic group. <br/><br/> In spite of the range of nutritional and metabolic adaptations seen among bacteria, microscopic size and cellular morphology have been highly conserved across the diversity of bacterial lineages. For instance, regardless of the taxonomic group, bacteria tend to exhibit one of three prevalent cell shapes: Cocci bacteria such as streptococcus, have spherical-shaped cells; bacilli are rod-shaped; and spirochetes are shaped like a spiral or corkscrew.
+</p>
+<%= image_tag("Bacteria/Bacteria-1.jpg", size: '300x240', class: "img") %>
+</br><span class="caption">Anatomy of a Generic Bacterial Cell. Please note that the cell wall is comprised of peptidoglycan.</span></br>
+
+<%= image_tag("Bacteria/Bacteria-2.png", size: '400x340', class: "img") %>
+</br><span class="caption">Comparison of the thickness of the peptidoglycan layer within the cell walls of Gram-positive versus Gram-negative bacteria.</span></br>
+
+<%= image_tag("Bacteria/Bacteria-3.jpg", size: '300x240', class: "img") %>
+</br><span class="caption">Example showing the results of a typical Gram stain. Notice that the Gram-positive bacteria stain a darker purple as compared to the lighter, pinkish-colored Gram-negative bacteria.</span></br>
+
+<%= image_tag("Bacteria/Bacteria-4.jpg", size: '300x240', class: "img") %>
+</br><span class="caption">E. coli bacteria</span></br>
+
+<%= image_tag("Bacteria/Bacteria-5.png", size: '500x440', class: "img") %>
+</br><span class="caption">Generalized schematic of bacterial cell shape and morphology.</span></br>
+</div>
 
 <%= link_to 'Back', cladograms_path %>
