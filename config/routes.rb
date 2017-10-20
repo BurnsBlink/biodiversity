@@ -15,4 +15,6 @@ Rails.application.routes.draw do
   resources :archaeplastida, only: [:index, :show]
 
   resources :sar, only: [:index, :show]
+
+  resources :fungi, only: [:index]
 end
