@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   resources :sar, only: [:index, :show]
 
   resources :fungi, only: [:index]
+
+  resources :intros, only: [:index, :show]
 end
