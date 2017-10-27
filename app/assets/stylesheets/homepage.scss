@@ -2,6 +2,7 @@ $primary-blue: #0043af;
 $primary-green: #00af37;
 $primary-white: #ffffff;
 $primary-grey: lightgrey;
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 button:focus {outline:0;}
 
@@ -16,6 +17,7 @@ a:visited {
 }
 
 .main-title {
+  font-family: 'Merriweather', serif;
   color: black;
   font-size: 55px;
   text-shadow: -1px 0 $primary-white, 0 1px $primary-white, 1px 0 $primary-white, 0 -1px $primary-white;
@@ -24,7 +26,8 @@ a:visited {
 }
 
 .intro-questions {
-  width: 270px;
+  font-family: 'Merriweather', serif;
+  width: 300px;
   height: 75px;
   background: $primary-grey;
   color: $primary-green;
@@ -40,6 +43,7 @@ a:visited {
 }
 
 .life-tree {
+  font-family: 'Merriweather', serif;
   width: 170px;
   height: 75px;
   margin: 15px;

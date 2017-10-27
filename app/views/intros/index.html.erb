@@ -1,5 +1,13 @@
-<h1>Hello There</h1>
-<center>
-<%= image_tag("biodiv-1.jpeg", width: 'auto', height: 'auto', class: "img") %>
-</br><p>Diorama of Biodiversity</p></br>
-</center>
+<body class="intro-home">
+<h1 class="intro-title">Introduction to Biodiversity</h1>
+<%= image_tag("biodiv-1.jpeg", :size => 'auto', class: "intro-img") %>
+<p class="intro-caption">Diorama of Biodiversity</p>
+<p class="intro-instr">
+  Instructions: Proceed through each of the four links in the order they are presented below. As you proceed, answer the appropriate questions found under Part A in your lab books. Please analyze all images, read all the content and watch the link provided to gather all the information you will need to provide complete answers to all the questions. Good Luck!
+</p><br/>
+<%= link_to "What is Biodiveristy?", ones_path, :class => "intro-links" %>
+<%= link_to "Why Do Scientists Care About Biodiversity?", twos_path, :class => "intro-links" %>
+<%= link_to "Direct Benefits of Biodiversity", threes_path, :class => "intro-links" %>
+<%= link_to "Indirect Benefits of Biodiversity", fours_path, :class => "intro-links" %>
+<br/><%= link_to "(Back)", root_path, style: 'color:#00af37;'%>
+</body>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.text-box {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  border: 1px solid black;
+  background-image: image-url("text.jpg");
+  background-blend-mode: screen;
+  background-color: #f0f0f0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border: 1px solid darkgrey;
+  padding: 15px;
+}
+
+.intro-title {
+  font-family: 'Merriweather', serif;
+  font-size: 45px;
+  color: #292E37;
+}
+
+.hr-line {
+  width: 50%;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid $primary-blue;
+  border-width: 3px;
+}
+
+.intro-p {
+  padding: 0px 30px;
+}
+
+.video {
+  font-size: 25px;
+}
+
+.img, .img-flip {
+  margin-top: 30px;
+  border-radius: 2%;
+}
+
+.img-flip {
+  transform: rotate(180deg);
+}

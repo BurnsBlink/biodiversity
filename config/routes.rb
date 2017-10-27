@@ -18,5 +18,10 @@ Rails.application.routes.draw do
 
   resources :fungi, only: [:index]
 
-  resources :intros, only: [:index, :show]
+  resources :intros, only: [:index]
+
+  resources :ones, only: [:index]
+  resources :twos, only: [:index]
+  resources :threes, only: [:index]
+  resources :fours, only: [:index]
 end
