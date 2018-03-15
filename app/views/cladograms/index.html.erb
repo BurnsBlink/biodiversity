@@ -5,10 +5,11 @@
 <%= link_to "Unikonta", unikonta_path, :class => "unik" %>
 <%= link_to "Archaeplastida", archaeplastida_index_path, :class => "plas" %>
 <%= link_to "SAR", sar_index_path, :class => "sar" %>
-<img class= "main-clado" src="<%= asset_path( 'main-clado.png' ) %>"/>
+<img class= "main-clado" src="<%= asset_path( 'main-clado2.png' ) %>"/>
 <p class="instructions">
-  1. Proceed in sequential order through all the clickable taxonomic groups shown on the tree beginning with “Bacteria” and ending with “SAR”</p>
+  1. Proceed in sequential order through all the clickable taxonomic groups shown on the tree beginning with “Bacteria” and ending with “SAR”, including "Domain Eukarya"</p>
   <p class="instructions">
   2. Observe the images and read the descriptions for each specific group of organisms-- -- make sure to take note of the defining features of each group</p>
   <p class="instructions">
   3. As you work your way through these phylogenetic trees, answer the corresponding questions for each group in the lab manual</p>
+  <%= link_to "Domain<br />Eukarya".html_safe, eukarya_index_path, :class => "eukarya" %>
