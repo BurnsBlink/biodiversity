@@ -20,6 +20,8 @@ Rails.application.routes.draw do
 
   resources :intros, only: [:index]
 
+  resources :eukarya, only: [:index]
+
   resources :ones, only: [:index]
   resources :twos, only: [:index]
   resources :threes, only: [:index]

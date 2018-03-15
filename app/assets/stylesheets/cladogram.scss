@@ -25,11 +25,11 @@ $primary-blue: #0043af;
   list-style-type: none;
 }
 
-.bact, .arch, .exca, .unik, .plas, .sar  {
+.bact, .arch, .exca, .unik, .plas, .sar, .eukarya  {
   font-size: 20px;
 }
 
-.bact, .arch, .exca, .unik, .plas, .sar {
+.bact, .arch, .exca, .unik, .plas, .sar, .eukarya {
   &:hover {
     color: lightblue;
   }
@@ -69,6 +69,13 @@ $primary-blue: #0043af;
   position: relative;
   top: 95px;
   left: 50px;
+}
+
+.eukarya {
+  background: white;
+  position: relative;
+  top: -330px;
+  left: 340px;
 }
 
 .instructions:first-of-type {
